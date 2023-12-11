@@ -6,11 +6,11 @@ Here is a detailed list of all the markdown commands used in a README file.
 
 ### Table of Contents
 
-* Headers
+* [Headers](###-Headers)
 * Emphasis
 * Lists
 * Links
-* Codeblock
+* [Codeblock](###-Codeblock)
 
 ### Headers
 
@@ -66,5 +66,33 @@ Eg-
 * https://google.com
 
 * <https://google.com> 
+
+### Codeblock
+
+Codeblock is used to recognize a piece of code.
+
+In order to write text in codeblock \```  **text**  \``` is used. If the programming language is specified then the codeblock can also identify its keywords.
+
+For eg. In order to write a piece of code in C the markdown command is:
+
+\```C <br>
+int a=10; <br>
+int b=20; <br>
+int sum=a+b; <br>
+printf("%d",sum); <br>
+\```
+
+**Output:**
+
+```C <br>
+int a=10; 
+int b=20; 
+int sum=a+b; 
+printf("%d",sum); 
+```
+
+
+
+
 
 
