@@ -105,7 +105,7 @@ git rebase -i <commit id> :
 ```
 Allows you to modify,squash or reorder commits
 
-## MERGE CONFLICTS
+## Merge Conflicts
 
 Merge conflicts occur when Git cannot automatically resolve code differences between two commits.Merge conflicts can be resolved manually.
 
